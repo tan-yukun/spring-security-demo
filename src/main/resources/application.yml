@@ -1,0 +1,9 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /security
+spring:
+  profiles:
+    active: ${ACTIVE:dev}
+  application:
+    name: business
